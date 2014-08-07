@@ -1,0 +1,26 @@
+{
+  "name": "gulp-json5",
+  "version": "0.0.1",
+  "description": "Convert JSON5 to JSON with gulp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nechtan/gulp-json5.git"
+  },
+  "keywords": [
+    "gulp",
+    "json5",
+    "json"
+  ],
+  "author": "Nechtan <dnechtan@gmail.com> (http://hax0r.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nechtan/gulp-json5/issues"
+  },
+  "homepage": "https://github.com/nechtan/gulp-json5",
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "map-stream": "^0.1.0",
+    "json5": "^0.2.0"
+  }
+}
