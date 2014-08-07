@@ -28,7 +28,7 @@ var gulp = require('gulp');
 var json5 = require('gulp-json5');
 
 gulp.task('default', function() {
-  return gulp.src('json5-src/**/*.json5')
+  return gulp.src('src/**/*.json5')
     .pipe(json5({
       beautify: true // default
     }))
@@ -37,7 +37,7 @@ gulp.task('default', function() {
 
 ```
 
-#### You can view more examples in the [example folder.](https://github.com/nechtan/gulp-json5/tree/master/examples).
+#### You can view more examples in the [example folder](https://github.com/nechtan/gulp-json5/tree/master/examples).
 
 ### Options
 * `beautify` - Causes the resulting file to be pretty-printed.
