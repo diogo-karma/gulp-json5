@@ -29,7 +29,7 @@ module.exports = function(options) {
       }
     }
     file.contents = new Buffer(JSON5.stringify(obj, null, options['beautify'] ? 4 : null));
-    file.path = path.join(file.base, path.basename(file.path, path.extname(file.path)) + '.json');
+    file.path = path.join(path.dirname(file.path), path.basename(file.path, path.extname(file.path)) + '.json');    
     callback(null, file);
   }
 
