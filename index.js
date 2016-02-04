@@ -1,7 +1,7 @@
 var path = require('path');
 var gutil = require('gulp-util');
 var map = require('map-stream');
-var JSON5 = require('JSON5');
+var JSON5 = require('json5');
 
 var PluginError = gutil.PluginError;
 
