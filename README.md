@@ -46,7 +46,7 @@ gulp.task('default', function() {
 
 (MIT License)
 
-Copyright (c) 2014 Nechtan (<dnechtan@gmail.com>), http://hax0r.in.
+▲ 2014 Diogo Karma <dnechtan@gmail.com> ▲ https://karmas.digital
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
